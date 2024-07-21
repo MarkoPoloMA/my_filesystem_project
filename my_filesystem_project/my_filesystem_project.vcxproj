@@ -140,14 +140,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\File_Manager_Exam_For_Top\FileManager\directory.cpp" />
-    <ClCompile Include="..\..\File_Manager_Exam_For_Top\FileManager\file.cpp" />
-    <ClCompile Include="..\..\File_Manager_Exam_For_Top\FileManager\main.cpp" />
+    <ClCompile Include="directory.cpp" />
+    <ClCompile Include="file.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\File_Manager_Exam_For_Top\FileManager\directory.h" />
-    <ClInclude Include="..\..\File_Manager_Exam_For_Top\FileManager\file.h" />
-    <ClInclude Include="..\..\File_Manager_Exam_For_Top\FileManager\file_system_object.h" />
+    <ClInclude Include="directory.h" />
+    <ClInclude Include="file.h" />
+    <ClInclude Include="file_system_object.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
