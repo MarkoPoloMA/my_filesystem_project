@@ -21,4 +21,4 @@ public:
     bool IsRepeatDirectory(const string& directory, const string& targetDirectory);
     void Read(const string& directory);
     void List();
-}; #pragma once
+}; 
